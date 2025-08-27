@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Магазин ігор</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Хедер -->
+  <header class="header">
+    <div class="logo">LOGO</div>
+    <nav>
+      <a href="#">Головна</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Товари -->
+    <section class="products">
+      <article class="product">
+        <img class ='img-l' src="../assets/pubg.png" alt="PUBG">
+        <div class = 'card-position'>
+            <h3>PUBG: BATTLEGROUNDS</h3>
+            <div class = 'card-position-text'>
+                <p>399 грн</p>
+                <div class="actions">
+                <input type="number" value="1" min="1">
+                <button class="remove">Remove</button>
+            </div>
+        </div>
+
+        </div>
+      </article>
+
+      <article class="product">
+        <img class ='img-l' src="../assets/witcher.jpeg" alt="The Witcher 3">
+        <h3>THE WITCHER 3 WILD HUNT</h3>
+        <p>100000 грн</p>
+        <div class="actions">
+          <input type="number" value="1" min="1">
+          <button class="remove">Remove</button>
+        </div>
+      </article>
+
+      <article class="product">
+        <img src="images/cyberpunk.jpg" alt="Cyberpunk 2077">
+        <h3>Cyberpunk 2077</h3>
+        <p>100000 грн</p>
+        <div class="actions">
+          <input type="number" value="1" min="1">
+          <button class="remove">Remove</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- Кошик -->
+    <aside class="cart">
+      <h2>Підсумок замовлення</h2>
+      <div class = 'cart-items'>
+        <p>Разом: $129.97</p>
+        <p>Доставка: $5.00</p>
+        <p><b>Загальна сума: $134.97</b></p>
+        </div>
+      <button class="checkout">ОФОРМИТИ</button>
+    </aside>
+  </main>
+</body>
+</html>

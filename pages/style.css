@@ -1,0 +1,192 @@
+/* Скидання базових відступів */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+/* Хедер */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 15px 30px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Контейнер */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 20px;
+}
+
+/* Список товарів */
+.products {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product {
+  display: flex;
+  background: #e0e0e0;
+  border-radius: 12px;
+  padding: 15px;
+  align-items: center;
+  gap: 15px;
+  /* Frame 10 */
+
+
+width: 670px;
+height: 336px;
+
+
+}
+
+.product img {
+  width: 100px;
+  border-radius: 8px;
+}
+
+.product h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions input {
+  width: 50px;
+  padding: 5px;
+}
+
+/* Кнопка Remove */
+.remove {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Блок кошика */
+.cart {
+  
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  /* Frame 17 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 113px;
+
+
+width: 446px;
+height: 665px;
+
+
+
+}
+
+.cart h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.cart p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Кнопка оформлення */
+.checkout {
+  background: red;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+  transition: 0.3s;
+}
+
+.checkout:hover {
+  background: darkred;
+}
+
+
+
+.cart-items{
+
+
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+
+}
+
+.product img.img-l {
+  width: 386px;
+  height: 331px;
+  border-radius: 8px;
+  object-fit: cover; 
+}
+.card-position{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:200px;
+
+margin-left: 30px;
+}
+
+.card-position-text{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:30px;
+
+}
